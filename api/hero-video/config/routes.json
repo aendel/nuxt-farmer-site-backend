@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hero-video",
+      "handler": "hero-video.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hero-video",
+      "handler": "hero-video.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hero-video",
+      "handler": "hero-video.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
